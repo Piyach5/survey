@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>User Experience Survey</title>
+  </head>
+  <body>
+    <header class="header">
+        <h1 id="title">User Experience Survey</h1>
+        <p id="description">Thank You for Your Support!</p>
+    </header>
+    <form id="survey-form">
+        <div class="form-group">
+            <label id="name-label" for="name">Name: </label>
+            <input id="name" type="text" required placeholder="Your Name"/>
+          </div>  
+        </div>
+        <div class="form-group">
+            <label id="email-label" for="email">Email: </label> 
+            <input id="email" type="email" required placeholder="Your Email "/>
+          </div>  
+        </div>
+        <div class="form-group">
+            <label id="number-label" for="number">Age: </label>  
+            <input id="number" type="number" min="13" max="100" placeholder="Your Age "/>
+          </div>  
+        </div>
+        <div class="form-group">
+            <p id="question1">How do you know our App?</p>
+            <select id="dropdown">
+            <option disabled selected value>Select One</option>
+            <option>Social Media</option>
+            <option>Advertising</option>
+            <option>Google</option>
+            <option>Others</option>
+        </select>
+        </div>
+        <div class="form-group">
+          <p id="question2">Would you like to recommend our App to your friend or your family?</p>
+            <label><input type="radio" value="yes" name="answer"/> Yes</label>
+            <label><input type="radio" value="no" name="answer"/> No</label>
+          </div>
+         <div class="form-group">
+           <p id="question2">What do you like the most in our App?</p>
+           <label>
+             <p><input type="checkbox" value="easy-to-use"/> Easy to Use<p>
+             <p><input type="checkbox" value="app-function"/> App Functions<p>
+             <p><input type="checkbox" value="app-design"/> App Design<p>
+           </label>
+         </div>
+        <div class="form-group">
+             <p>Any Suggestions?</p>
+             <textarea>
+             </textarea>
+        </div>
+        <div class="form-group">
+             <button type="submit" id="submit">Submit</button>
+        </div>          
+    </form>
+    <div class="footer">
+      <address>
+        <p>123 App Co. Bangkok, Thailand</p>
+        <p><img src="https://cdn3.iconfinder.com/data/icons/glypho-social-and-other-logos/64/logo-facebook-512.png" alt=""/> <a href="fakehref" target="_blank">Facebook</a></p>
+        <p><img src="https://static.vecteezy.com/system/resources/previews/017/743/717/non_2x/instagram-icon-logo-free-png.png" alt=""/><a href="fakehref" target="_blank"> Instagram</a></p>
+        <p><img src="https://cdn-icons-png.flaticon.com/512/6471/6471842.png" alt=""/><a href="fakehref" target="_blank"> Website</a></p>
+      </address>
+    </footer>
+    </div>   
+  </body>
+</html> 
